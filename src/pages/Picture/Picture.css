@@ -1,0 +1,40 @@
+.picture {
+  background-image: url(./images/space.avif);
+  background-size: cover;
+  background-position: center;
+}
+.section {
+  width: 100vw;
+  height: auto;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.photo-of-day {
+  box-shadow: 0 0 23px rgba(0, 0, 0, 0.742);
+  border-radius: 30px;
+  max-height: 65vh;
+  max-width: 90vw;
+  object-fit: cover;
+  transition: all 0.2s ease-in-out;
+}
+.description {
+  padding: 20px;
+  text-align: justify;
+  min-width: none;
+  max-width: 40vw;
+  height: auto;
+}
+.title-photo {
+  text-align: center;
+  padding: 20px;
+}
+.details-bar {
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}

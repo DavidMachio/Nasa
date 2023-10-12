@@ -1,0 +1,45 @@
+.home {
+  min-height: 85vh;
+  background-image: url(./images/nodate.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-home {
+  text-align: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.logo-home {
+  height: 20px;
+  width: auto;
+}
+.app-title {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.app-description {
+  max-width: 600px;
+  text-align: center;
+  padding: 0px;
+}
+.view-photo {
+  padding: 19px;
+  height: 60px;
+  width: 120px;
+  background-color: rgba(0, 0, 0, 0.603);
+  color: white;
+  border-radius: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.611);
+  box-shadow: 0 0 23px rgb(0, 76, 255);
+  transition: all 0.1s ease-in-out;
+}
+.view-photo:hover {
+  background-color: rgb(41, 165, 253);
+  color: black;
+  scale: 104%;
+}
